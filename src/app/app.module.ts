@@ -6,13 +6,15 @@ import { RouterModule, Routes, ActivatedRoute } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { LoginPageTenhoComponent } from './login-page-tenho/login-page-tenho.component';
+import { SingupComponent } from './singup/singup.component';
 import { routes } from './app.router';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginPageTenhoComponent
+    LoginPageTenhoComponent,
+    SingupComponent
   ],
   imports: [
     BrowserModule,
