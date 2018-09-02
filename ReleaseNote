@@ -1,0 +1,12 @@
+Abner:
+Arthur:
+Althierfson:
+Liellison:
+-0.0.0.1-0: Criação da Tela Inicial de login.
+-0.0.0.1-1: Atualização do Cli  
+-0.0.0.1-2: Inclusão de Rotas para navegação inicial  
+-0.0.0.1-2: Atualização de route/Remoção de arquivo de configuração do vscode/ correção de merge/inclusão de telas de login
+-0.0.0.1-3: Inclusão do arquivo de controle de lançamentos
+Luccas:
+-0.0.0.1-4: Atualizacao na tela de cadastro / fix ng serve 
+-0.0.0.1-5: Adicao de botoes na tela de cadastro

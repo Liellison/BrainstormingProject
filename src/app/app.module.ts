@@ -1,20 +1,22 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule, Routes, ActivatedRoute } from '@angular/router';
+
 
 
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './/app-routing.module';
-import { SingupComponent } from './singup/singup.component';
+import { LoginPageTenhoComponent } from './login-page-tenho/login-page-tenho.component';
+import { routes } from './app.router';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SingupComponent
+    LoginPageTenhoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
