@@ -41,4 +41,26 @@
   border-bottom:1.3px solid black;
 }
 
-
+input {
+  /*width:100%;*/       /*tamannho da barra de texto na tela*/
+  padding:12px 20px;
+  margin: 8px 0;
+  box-sizing:border-box;
+  border:none;
+  border-bottom:1.3px solid black;
+  height: 48px;
+  border-bottom: 2px solid white;
+  background: none;
+  border-radius: 0;
+  color: #ffffff;
+}
+input:hover{
+  background: #ffffff;
+}
+input:not(:placeholder-shown){
+    color: black;
+}input:focus{
+  background: none;
+  outline: none;
+    color: black;
+}
