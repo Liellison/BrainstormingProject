@@ -8,5 +8,4 @@ export const routes: Routes = [
   {path: 'home', component: AppComponent},
   {path: 'loginPageTenho', component: LoginPageTenhoComponent},
   {path: 'cadastro', component: SingupComponent}
-
 ]
