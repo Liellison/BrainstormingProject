@@ -2,7 +2,7 @@
 <div style="text-align:center">
   <h1>{{ welcome }}</h1>
 
-  <button type="submit" id="BtTenho" class="Button"><h1 class="ButtonText"> Tenho cadastro</h1></button><br/>
+  <a [routerLink]="[ '/loginPageTenho']"><button type="submit" id="BtTenho" class="Button"><h1 class="ButtonText">Tenho cadastro</h1></button></a><br/>
   <button type="submit" id="BtCadastro" class="Button" ><h1 class="ButtonText">Quero me cadastrar</h1></button>
 </div>
 <router-outlet></router-outlet>
