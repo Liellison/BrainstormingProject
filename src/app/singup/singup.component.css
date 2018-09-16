@@ -16,43 +16,17 @@
   letter-spacing: normal;
   color: #ffffff;
 }
-  input[type=text] {
-    padding:12px 20px;
-    margin: 8px 0;
-    box-sizing:border-box;
-    border:none;
-    border-bottom:1.3px solid black;
-
-  }
-
-  input[type=password] {
-    padding:12px 20px;
-    margin: 8px 0;
-    box-sizing:border-box;
-    border:none;
-    border-bottom:1.3px solid black;
- }
-
- input[type=email] {
-  padding:12px 20px;
-  margin: 8px 0;
-  box-sizing:border-box;
-  border:none;
-  border-bottom:1.3px solid black;
-}
-
-input {
-  /*width:100%;*/       /*tamannho da barra de texto na tela*/
-  padding:12px 20px;
-  margin: 8px 0;
+ input {
+  width:70%;       /*tamannho da barra de texto na tela*/
+  padding:12px 0px;
+  margin: 8px 10px;
   box-sizing:border-box;
   border:none;
   border-bottom:1.3px solid black;
   height: 48px;
-  border-bottom: 2px solid white;
   background: none;
   border-radius: 0;
-  color: #ffffff;
+  color: black;
 }
 input:hover{
   background: #ffffff;
@@ -63,4 +37,14 @@ input:not(:placeholder-shown){
   background: none;
   outline: none;
     color: black;
+}
+
+form{
+padding:40px 20px;
+margin: 30px 350px;
+border:none;
+width: 40%;
+align-self: center;
+box-align: center;
+border-style: outset;
 }
