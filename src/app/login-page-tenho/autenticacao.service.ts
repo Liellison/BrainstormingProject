@@ -14,6 +14,7 @@ export class AutenticacaoService {
       this.router.navigate(['/inicio']);
     }else{
       this.userAuth = false;
+      this.router.navigate(['/loginPageTenho/Erro']);
     }
   }
 }

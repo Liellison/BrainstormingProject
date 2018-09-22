@@ -10,6 +10,8 @@ import { routes } from './app.router';
 import { AutenticacaoService } from './login-page-tenho/autenticacao.service';
 import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { Bran1Component } from './tela-inicial/bran1/bran1.component';
+import { LoginErradoComponent } from './login-page-tenho/login-errado/login-errado.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { WelcomeComponent } from './welcome/welcome.component';
     LoginPageTenhoComponent,
     SingupComponent,
     TelaInicialComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    Bran1Component,
+    LoginErradoComponent
   ],
   imports: [
     BrowserModule,

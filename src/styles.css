@@ -34,3 +34,21 @@ div.card {
   div.container {
       padding: 10px;
     }
+
+    div.cardLarge {
+        width: 850px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        float: left;
+        margin: 1%;
+      }
+      div.headerLarge {
+        background-color:#5d1049;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+    div.containerLarge {
+        padding: 100px;
+      }
