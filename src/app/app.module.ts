@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LoginPageTenhoComponent } from './login-page-tenho/login-page-tenho.component';
 import { SingupComponent } from './singup/singup.component';
 import { routes } from './app.router';
+import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginPageTenhoComponent,
-    SingupComponent
+    SingupComponent,
+    MenuLateralComponent
   ],
   imports: [
     BrowserModule,
