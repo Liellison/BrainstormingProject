@@ -11,6 +11,7 @@ export class AutenticacaoService {
   doLogin(usuario:User){
     if(usuario.nome === 'eu' && usuario.senha === '123'){
       this.userAuth = true;
+      this.router.navigate(['/inicio']);
     }else{
       this.userAuth = false;
     }
