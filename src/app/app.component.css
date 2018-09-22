@@ -1,22 +1,4 @@
 
-.Button {
-  width: 190px;
-  height: 40px;
-  background-color: #5d1049;
-  margin: center;
-  border-radius: 20px;
-}
-.ButtonText {
-  margin: center;
-  font-family: Montserrat;
-  font-size: 10px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
-}
 
 input {
   width:70%;       /*tamannho da barra de texto na tela*/
