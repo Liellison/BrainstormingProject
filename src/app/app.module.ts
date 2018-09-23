@@ -7,6 +7,9 @@ import { LoginPageTenhoComponent } from './login-page-tenho/login-page-tenho.com
 import { SingupComponent } from './singup/singup.component';
 import { routes } from './app.router';
 import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
+import { LoginErradoComponent } from './login-page-tenho/login-errado/login-errado.component';
 
 
 @NgModule({
@@ -14,7 +17,10 @@ import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
     AppComponent,
     LoginPageTenhoComponent,
     SingupComponent,
-    MenuLateralComponent
+    MenuLateralComponent,
+    WelcomeComponent,
+    TelaInicialComponent,
+    LoginErradoComponent
   ],
   imports: [
     BrowserModule,

@@ -4,10 +4,15 @@ import { AppComponent } from './app.component';
 import { LoginPageTenhoComponent } from './login-page-tenho/login-page-tenho.component';
 import { SingupComponent} from './singup/singup.component';
 import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
+import { LoginErradoComponent } from './login-page-tenho/login-errado/login-errado.component';
 
 export const routes: Routes = [
-  {path: 'home', component: AppComponent},
+  {path: '', component: WelcomeComponent},
   {path: 'loginPageTenho', component: LoginPageTenhoComponent},
   {path: 'cadastro', component: SingupComponent},
-  {path: 'menuLateral', component: MenuLateralComponent}
+  {path: 'menuLateral', component: MenuLateralComponent},
+  {path: 'inicio', component: TelaInicialComponent},
+  {path: 'loginPageTenho/Erro', component: LoginErradoComponent}
 ]
