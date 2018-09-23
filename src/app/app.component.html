@@ -1,4 +1,10 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <router-outlet></router-outlet>
+  <h1>{{ welcome }}</h1>
+
+  <a [routerLink]="[ '/loginPageTenho']"><button type="submit" id="BtTenho" class="Button"><h1 class="ButtonText">Tenho cadastro</h1></button></a><br/>
+  <button type="submit" id="BtCadastro" class="Button" routerLink='/cadastro' ><h1 class="ButtonText">Quero me cadastrar</h1></button>
 </div>
+<router-outlet></router-outlet>
+
+
