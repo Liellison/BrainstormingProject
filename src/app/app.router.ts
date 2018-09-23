@@ -3,18 +3,11 @@ import { RouterModule, Routes, ActivatedRoute } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LoginPageTenhoComponent } from './login-page-tenho/login-page-tenho.component';
 import { SingupComponent} from './singup/singup.component';
-import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
-import { WelcomeComponent } from './welcome/welcome.component';
-import { Bran1Component } from './tela-inicial/bran1/bran1.component';
-import { LoginErradoComponent } from './login-page-tenho/login-errado/login-errado.component';
-
+import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
 
 export const routes: Routes = [
-  {path: '', component: WelcomeComponent},
+  {path: 'home', component: AppComponent},
   {path: 'loginPageTenho', component: LoginPageTenhoComponent},
   {path: 'cadastro', component: SingupComponent},
-  {path: 'inicio', component: TelaInicialComponent},
-  {path: 'inicio/branDone', component:Bran1Component},
-  {path: 'loginPageTenho/Erro', component:LoginErradoComponent}
+  {path: 'menuLateral', component: MenuLateralComponent}
 ]
-export const RoutingModule = RouterModule.forRoot(routes);
