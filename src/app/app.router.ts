@@ -8,6 +8,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
 import { LoginErradoComponent } from './login-page-tenho/login-errado/login-errado.component';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
+import { Bran1Component} from './tela-inicial/bran1/bran1.component';
 
 export const routes: Routes = [
   {path: '', component: WelcomeComponent},
