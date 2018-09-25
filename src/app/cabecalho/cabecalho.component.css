@@ -1,0 +1,30 @@
+.Rectangle-41 {
+  width: 1360px;
+  height: 720px;
+  background-color: #fffbe6;
+}
+.Rectangle {
+  width: 1350px;
+  height: 82px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #5d1049;
+}
+.Rectangle-22 {
+  width: 413px;
+  height: 31px;
+  position: absolute;
+  top: 25px;
+  left: 800px;
+  background-color: #e30425;
+}
+  .Ellipse {
+    border-radius:100%;
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    top: 9px;
+    left: 1250px;
+    background-color: #e30425;
+  }
