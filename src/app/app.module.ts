@@ -10,8 +10,7 @@ import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
 import { LoginErradoComponent } from './login-page-tenho/login-errado/login-errado.component';
-
-
+import { CabecalhoComponent} from './cabecalho/cabecalho.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +19,8 @@ import { LoginErradoComponent } from './login-page-tenho/login-errado/login-erra
     MenuLateralComponent,
     WelcomeComponent,
     TelaInicialComponent,
-    LoginErradoComponent
+    LoginErradoComponent,
+    CabecalhoComponent
   ],
   imports: [
     BrowserModule,
