@@ -7,6 +7,7 @@ import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { Bran1Component } from './tela-inicial/bran1/bran1.component';
 import { LoginErradoComponent } from './login-page-tenho/login-errado/login-errado.component';
+import { CabecalhoComponent } from './cabecalho/cabecalho.component';
 
 
 export const routes: Routes = [
@@ -15,6 +16,7 @@ export const routes: Routes = [
   {path: 'cadastro', component: SingupComponent},
   {path: 'inicio', component: TelaInicialComponent},
   {path: 'inicio/branDone', component:Bran1Component},
-  {path: 'loginPageTenho/Erro', component:LoginErradoComponent}
+  {path: 'loginPageTenho/Erro', component:LoginErradoComponent},
+  {path: 'cabecalho', component:CabecalhoComponent}
 ]
 export const RoutingModule = RouterModule.forRoot(routes);
