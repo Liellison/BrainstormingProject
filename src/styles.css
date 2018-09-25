@@ -17,10 +17,11 @@
     color: #ffffff;
 }
 div.card {
+    margin-left: 200px;
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
-    float: left;
+    float: right;
     margin: 1%;
   }
   
@@ -51,4 +52,4 @@ div.card {
     
     div.containerLarge {
         padding: 100px;
-      }
+}
