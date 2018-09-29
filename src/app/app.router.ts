@@ -1,13 +1,13 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes, ActivatedRoute } from '@angular/router';
 import { AppComponent } from './app.component';
-import { LoginPageTenhoComponent } from './login-page-tenho/login-page-tenho.component';
-import { SingupComponent} from './singup/singup.component';
-import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
-import { WelcomeComponent } from './welcome/welcome.component';
-import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
-import { LoginErradoComponent } from './login-page-tenho/login-errado/login-errado.component';
-import { CabecalhoComponent } from './cabecalho/cabecalho.component';
+import { LoginPageTenhoComponent } from './pages/page-login/login-page-tenho/login-page-tenho.component';
+import { SingupComponent } from './pages/page-singup/singup/singup.component';
+import { MenuLateralComponent } from './pages/page-home/menu-lateral/menu-lateral.component';
+import { WelcomeComponent } from './pages/page-login/welcome/welcome.component';
+import { TelaInicialComponent } from './pages/page-home/tela-inicial/tela-inicial.component';
+import { LoginErradoComponent } from './pages/page-login/login-errado/login-errado.component';
+import { CabecalhoComponent } from './pages/page-home/cabecalho/cabecalho.component';
 //import { Bran1Component} from './tela-inicial/bran1/bran1.component';
 
 export const routes: Routes = [
