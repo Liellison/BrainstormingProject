@@ -17,7 +17,7 @@
   position: absolute;
   top: 25px;
   left: 800px;
-  background-color: #e30425;
+  background-color: #720d5d;
 }
   .Ellipse {
     border-radius:100%;
@@ -26,5 +26,5 @@
     position: absolute;
     top: 9px;
     left: 1250px;
-    background-color: #e30425;
+    background-color: #720d5d;
   }
