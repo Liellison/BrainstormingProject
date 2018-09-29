@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { AutenticacaoService } from './autenticacao.service';
-import { User } from './User';
+import { AutenticacaoService } from '../../../services/autenticacao.service';
+import { User } from '../../../services/User';
 
 @Component({
   selector: 'app-login-page-tenho',
@@ -19,5 +19,6 @@ export class LoginPageTenhoComponent implements OnInit{
 
   doLogin(){
     this.autenticacao.doLogin(this.usuario);
+    console.log(this.usuario);
   }
 }

@@ -37,13 +37,15 @@ div.card {
     }
 
     div.cardLarge {
+        margin-top: 200px;
         width: 850px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         text-align: center;
-        float: left;
+        float: right;
         margin: 1%;
       }
       div.headerLarge {
+        margin-top: 70px;
         background-color:#5d1049;
         color: white;
         padding: 10px;
