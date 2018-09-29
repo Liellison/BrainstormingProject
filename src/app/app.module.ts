@@ -11,6 +11,8 @@ import { LoginPageTenhoComponent } from './pages/page-login/login-page-tenho/log
 import { TelaInicialComponent } from './pages/page-home/tela-inicial/tela-inicial.component';
 import { MenuLateralComponent } from './pages/page-home/menu-lateral/menu-lateral.component';
 import { CabecalhoComponent } from './pages/page-home/cabecalho/cabecalho.component';
+import { AutenticacaoService } from './services/autenticacao.service';
+import { Bran1Component } from './pages/page-home/tela-inicial/bran1/bran1.component';
 
 @NgModule({
   declarations: [
@@ -21,13 +23,16 @@ import { CabecalhoComponent } from './pages/page-home/cabecalho/cabecalho.compon
     WelcomeComponent,
     TelaInicialComponent,
     LoginErradoComponent,
-    CabecalhoComponent
+    CabecalhoComponent,
+    Bran1Component
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [
+    AutenticacaoService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

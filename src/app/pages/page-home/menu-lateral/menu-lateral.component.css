@@ -3,19 +3,19 @@
 
 position: absolute;
 width: 261px;
-height: 881px;
+height: 750px;
 left: 0px;
-top: 143px;
+top: 82px;
 
-background: #C4C4C4;
+background: #720D5D;
 }
 
 .ListBrains {
     position: absolute;
     width: 229px;   
-    height: 750px;
+    height: 350px;
     left: 15px;
-    top: 259px;
+    top: 255px;
 
     background: #5D1049;
     border-radius: 10px;

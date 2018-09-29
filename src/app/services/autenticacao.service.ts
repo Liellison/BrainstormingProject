@@ -1,5 +1,5 @@
 import { Injectable, EventEmitter } from '@angular/core';
-import { User } from './User';
+import { User } from '../services/User';
 import { Router } from '@angular/router';
 
 @Injectable()
@@ -14,7 +14,7 @@ export class AutenticacaoService {
       this.router.navigate(['/inicio']);
     }else{
       this.userAuth = false;
-      this.router.navigate(['/loginPageTenho/Erro']);
+      this.router.navigate(['/inicio']);
     }
   }
 }
