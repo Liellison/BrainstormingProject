@@ -1,5 +1,5 @@
 .menulat {
-    /* MenuLateral */
+    /* CAIXA.MENU LATERAL */
 
 position: absolute;
 width: 261px;
@@ -11,6 +11,8 @@ background: #720D5D;
 }
 
 .ListBrains {
+    /* CAIXA.lista com branstorming */
+
     position: absolute;
     width: 229px;   
     height: 350px;
@@ -22,6 +24,8 @@ background: #720D5D;
 }
 
 .Button {
+    /* BOTÃO.NOVO BRANSTORMING */
+
     position: absolute;
     width: 230px;
     height: 76px;
@@ -34,7 +38,7 @@ background: #720D5D;
 }
 
 .ButtonText {
-    /* NOVO BRAINSTORMING */
+    /* TEXT DO BOTÃO.NOVO BRAINSTORMING */
 
     font-family: Roboto;
     font-style: normal;
