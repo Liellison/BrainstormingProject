@@ -1,7 +1,7 @@
 <div style="text-align:center">
     <h1>{{ LoginHas }}</h1>
-    <input (ngModel)="usuario.nome" id="usuario" type="text" name="IDLogin" size="40" /><br/>
-    <input (ngModel)="usuario.senha" id="senha" type="password" name="PassLogin" size="40"/><br/>
+    <input (ngModel)="usuario.name" id="usuario" type="text" name="IDLogin" size="40" placeholder="Digite o nome do seu usuário" /><br/>
+    <input (ngModel)="usuario.senha" id="senha" type="password" name="PassLogin" size="40" placeholder="Digite a sua senha"/><br/>
     <button (click)="doLogin()" type="submit" name="BtLogin" class="Button"><h1 class="ButtonText">Login</h1></button><br/>
     <button type="submit" id="BtCadastro" class="Button" routerLink='/cadastro'><h1 class="ButtonText">Quero me cadastrar</h1></button>
 </div>
