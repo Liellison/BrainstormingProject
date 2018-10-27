@@ -8,7 +8,7 @@ import { User } from '../../../services/User';
 })
 export class LoginPageTenhoComponent implements OnInit{
   LoginHas = 'Tenho cadastro'
-  private usuario: User = new User();
+  public usuario: User = new User();
   constructor(private autenticacao: AutenticacaoService){  }
 
   ngOnInit(): void {
