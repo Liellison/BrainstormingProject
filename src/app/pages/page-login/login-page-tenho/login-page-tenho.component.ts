@@ -4,7 +4,8 @@ import { User } from '../../../services/User';
 
 @Component({
   selector: 'app-login-page-tenho',
-  templateUrl: './login-page-tenho.component.html'
+  templateUrl: './login-page-tenho.component.html',
+  styleUrls: ['./login-page-tenho.component.css']
 })
 export class LoginPageTenhoComponent implements OnInit{
   LoginHas = 'Tenho cadastro'

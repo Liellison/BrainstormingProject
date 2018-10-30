@@ -6,7 +6,7 @@
   
 }
 .Rectangle {
-  width: 1350px;
+  width: 100%;
   height: 82px;
   position: absolute;
   top: 0px;
@@ -15,13 +15,14 @@
     color: #ffffff;
 }
 .Rectangle-22 {
-  width: 413px;
-  height: 31px;
-  position: absolute;
-  top: 25px;
+  width: 408px;
+  height: 23px;
+  position:relative;
+  top: 10px;
   left: 800px;
   background-color: #720d5d;
-    color: #ffffff;
+  color: #ffffff;
+  text-align: center;
 }
   .Ellipse {
     border-radius:100%;

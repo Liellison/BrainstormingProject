@@ -1,0 +1,13 @@
+div.HomeScreen{
+
+    padding:40px 20px;
+    margin: 30px 350px;
+    border:none;
+    width: 50%;
+    height: 60%;
+    align-self: center;
+    box-align: center;
+    border-style: outset;
+    
+
+}

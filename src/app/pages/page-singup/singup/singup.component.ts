@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./singup.component.css']
 })
 export class SingupComponent implements OnInit {
-  title = 'Quero me cadastrar';
+  title = 'Cadastro';
   constructor() { }
 
   ngOnInit() {
