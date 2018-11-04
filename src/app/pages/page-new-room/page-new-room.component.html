@@ -1,3 +1,13 @@
-<p>
-  page-new-room works!
-</p>
+<div class="row">
+  <form [formGroup]="formu" (ngSubmit)="onSubmit()" >
+      <div class="form-group">
+          <label>Descricao da sala</label>
+          <input formControlName="Descricao" class="form-control" >
+      </div>
+      <div class="form-group">
+          <label>Resumo da sala</label>
+          <input formControlName="Id" class="form-control" >
+      </div>
+  </form>
+  <button (click)="salva()"></button>
+</div>

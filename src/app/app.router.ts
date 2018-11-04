@@ -9,6 +9,7 @@ import { TelaInicialComponent } from './pages/page-home/tela-inicial/tela-inicia
 import { LoginErradoComponent } from './pages/page-login/login-errado/login-errado.component';
 import { CabecalhoComponent } from './pages/page-home/cabecalho/cabecalho.component';
 import { Bran1Component } from './pages/page-home/tela-inicial/bran1/bran1.component';
+import { PageNewRoomComponent } from './pages/page-new-room/page-new-room.component';
 
 export const routes: Routes = [
   {path: '', component: WelcomeComponent},
@@ -19,5 +20,6 @@ export const routes: Routes = [
   {path: 'inicio/branDone', component:Bran1Component},
   {path: 'loginPageTenho/Erro', component:LoginErradoComponent},
   {path: 'cabecalho', component:CabecalhoComponent},
-  {path: 'loginPageTenho/Erro', component: LoginErradoComponent}
+  {path: 'loginPageTenho/Erro', component: LoginErradoComponent},
+  {path: 'inicio/NewRoom', component: PageNewRoomComponent}
 ]
