@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes, ActivatedRoute } from '@angular/router';
+import { AngularFireModule} from 'angularfire2';
+import { AngularFireDatabaseModule} from 'angularfire2/database';
 
 import { AppComponent } from './app.component';
 import { routes } from './app.router';
@@ -13,6 +15,8 @@ import { MenuLateralComponent } from './pages/page-home/menu-lateral/menu-latera
 import { CabecalhoComponent } from './pages/page-home/cabecalho/cabecalho.component';
 import { AutenticacaoService } from './services/autenticacao.service';
 import { Bran1Component } from './pages/page-home/tela-inicial/bran1/bran1.component';
+import { PageNewRoomComponent } from './pages/page-new-room/page-new-room.component';
+import { environment } from './../environments/environment';
 
 @NgModule({
   declarations: [
@@ -24,11 +28,14 @@ import { Bran1Component } from './pages/page-home/tela-inicial/bran1/bran1.compo
     TelaInicialComponent,
     LoginErradoComponent,
     CabecalhoComponent,
-    Bran1Component
+    Bran1Component,
+    PageNewRoomComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireDatabaseModule
   ],
   providers: [
     AutenticacaoService

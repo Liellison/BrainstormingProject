@@ -6,7 +6,7 @@
     </div>
     <div class="container" routerLink='branDone'>
         <button type="submit" hidden="true" class="Button" routerLink='/inicio/branDone'></button>
-        <p>Ideias para projeto secreto - Março 1, 2018</p>
+        <p *ngFor="let Salas of Salas">{{Salas.Descricao}}</p>
     </div>
   </div>
 
