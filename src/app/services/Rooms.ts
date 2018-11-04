@@ -1,6 +1,7 @@
 export class Rooms{
-    Id: string;
-    Descricao: string;
-    Lamps: string;
-    Votacao: string;
+    constructor(
+    public Id: string,
+    public Descricao: string,
+    public Lamps: string,
+    public Votacao: string){}
 }
