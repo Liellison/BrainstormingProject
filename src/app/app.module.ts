@@ -17,6 +17,7 @@ import { AutenticacaoService } from './services/autenticacao.service';
 import { Bran1Component } from './pages/page-home/tela-inicial/bran1/bran1.component';
 import { PageNewRoomComponent } from './pages/page-new-room/page-new-room.component';
 import { environment } from './../environments/environment';
+import { LightRatingComponent } from './pages/page-new-room/light-rating/light-rating/light-rating.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { environment } from './../environments/environment';
     LoginErradoComponent,
     CabecalhoComponent,
     Bran1Component,
-    PageNewRoomComponent
+    PageNewRoomComponent,
+    LightRatingComponent
   ],
   imports: [
     BrowserModule,
