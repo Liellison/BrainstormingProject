@@ -1,4 +1,4 @@
-import { NgModule }             from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes, ActivatedRoute } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LoginPageTenhoComponent } from './pages/page-login/login-page-tenho/login-page-tenho.component';
@@ -17,9 +17,10 @@ export const routes: Routes = [
   {path: 'cadastro', component: SingupComponent},
   {path: 'menuLateral', component: MenuLateralComponent},
   {path: 'inicio', component: TelaInicialComponent},
-  {path: 'inicio/branDone', component:Bran1Component},
-  {path: 'loginPageTenho/Erro', component:LoginErradoComponent},
-  {path: 'cabecalho', component:CabecalhoComponent},
+  {path: 'inicio/branDone', component: Bran1Component},
   {path: 'loginPageTenho/Erro', component: LoginErradoComponent},
-  {path: 'inicio/NewRoom', component: PageNewRoomComponent}
-]
+  {path: 'cabecalho', component: CabecalhoComponent},
+  {path: 'loginPageTenho/Erro', component: LoginErradoComponent},
+  {path: 'NewRoom', component: PageNewRoomComponent}
+
+];

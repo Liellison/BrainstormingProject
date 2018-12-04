@@ -5,9 +5,6 @@
 /dist-server
 /tmp
 /out-tsc
-/.firebase
-/n
-/package-lock.json
 
 # dependencies
 /node_modules
