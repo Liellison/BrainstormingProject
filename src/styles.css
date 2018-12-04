@@ -37,12 +37,12 @@ div.card {
     }
 
     div.cardLarge {
-        margin-top: 200px;
-        width: 850px;
+        margin-top: 55px;
+        margin-right: 80px;
+        width: 950px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         text-align: center;
         float: right;
-        margin: 1%;
       }
       div.headerLarge {
         margin-top: 70px;

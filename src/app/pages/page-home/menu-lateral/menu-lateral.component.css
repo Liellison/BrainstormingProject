@@ -1,13 +1,10 @@
 .menulat {
-    /* MenuLateral */
-
-position: absolute;
-width: 261px;
-height: 750px;
-left: 0px;
-top: 82px;
-
-background: #720D5D;
+    position: absolute;
+    width: 261px;
+    height: 100%;
+    left: 0px;
+    top: 52px;
+    background: #720D5D;
 }
 
 .ListBrains {
@@ -16,7 +13,6 @@ background: #720D5D;
     height: 350px;
     left: 15px;
     top: 255px;
-
     background: #5D1049;
     border-radius: 10px;
 }
@@ -26,8 +22,7 @@ background: #720D5D;
     width: 230px;
     height: 76px;
     left: 14px;
-    top: 155px;
-
+    top: 100px;
     background: #5D1049;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;    
