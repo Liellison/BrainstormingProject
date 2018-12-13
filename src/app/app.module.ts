@@ -20,6 +20,7 @@ import { PageNewRoomComponent } from './pages/page-new-room/page-new-room.compon
 import { environment } from './../environments/environment';
 import { LightRatingComponent } from './pages/page-new-room/light-rating/light-rating/light-rating.component';
 import { PageNewlampComponent } from './pages/page-newlamp/page-newlamp.component';
+import { PageExemploLampComponent } from './pages/page-newlamp/page-exemplo-lamp/page-exemplo-lamp.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { PageNewlampComponent } from './pages/page-newlamp/page-newlamp.componen
     Bran1Component,
     PageNewRoomComponent,
     LightRatingComponent,
-    PageNewlampComponent
+    PageNewlampComponent,
+    PageExemploLampComponent
   ],
   imports: [
     FormsModule,

@@ -33,7 +33,7 @@ export class PageNewRoomComponent implements OnInit {
     if(this.formu.valid){
       this.createSalas(this.formu.valid);
     }
-    alert("fuck");
+    alert("Salvo com sucesso");
   }
 
   public createSalas(sala){

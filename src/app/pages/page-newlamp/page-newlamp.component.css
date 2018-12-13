@@ -5,3 +5,26 @@
     left: 0px;
     top: 82px;
 }
+
+input {
+    width:30%;       /*tamannho da barra de texto na tela*/
+    padding:12px 0px;
+    margin: 8px 10px;
+    box-sizing:border-box;
+    border:none;
+    border-bottom:1.3px solid black;
+    height: 48px;
+    background: none;
+    border-radius: 0;
+    color: black;
+  }
+  input:hover{
+    background: #ffffff;
+  }
+  input:not(:placeholder-shown){
+      color: black;
+  }input:focus{
+    background: none;
+    outline: none;
+      color: black;
+  }
