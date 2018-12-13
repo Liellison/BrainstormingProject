@@ -19,6 +19,7 @@ import { Bran1Component } from './pages/page-home/tela-inicial/bran1/bran1.compo
 import { PageNewRoomComponent } from './pages/page-new-room/page-new-room.component';
 import { environment } from './../environments/environment';
 import { LightRatingComponent } from './pages/page-new-room/light-rating/light-rating/light-rating.component';
+import { PageNewlampComponent } from './pages/page-newlamp/page-newlamp.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { LightRatingComponent } from './pages/page-new-room/light-rating/light-r
     CabecalhoComponent,
     Bran1Component,
     PageNewRoomComponent,
-    LightRatingComponent
+    LightRatingComponent,
+    PageNewlampComponent
   ],
   imports: [
     FormsModule,

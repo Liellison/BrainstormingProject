@@ -6,7 +6,7 @@
     </div>
     <div class="container" routerLink='branDone'>
         <button type="submit" hidden="true" class="Button" routerLink='/inicio/branDone'></button>
-        <p *ngFor="let Salas of Salas">{{Salas.Descricao}}</p>
+        <p *ngFor="let Salas of Salas">{{Salas[0].Descricao}}</p>
     </div>
   </div>
 
