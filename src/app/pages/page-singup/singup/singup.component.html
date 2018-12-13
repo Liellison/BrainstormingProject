@@ -1,22 +1,18 @@
-<form style="text-align:center">
+<form [formGroup]="form_cadastro" (ngSubmit)="cadastrarUsuario()" style="text-align:center">
 
-<h1>{{title}}</h1>
-
-  <br>
-  <label for="txtName">Nome:</label>
-  <input type="text" placeholder="Digite o nome do seu usuário" name="Name" size= '60'value="">
-  <br>
-  <br>
-  <label for= "txtEmail">E-mail:</label>
-  <input type="email" placeholder="Digite o seu email" name="E-Mail"size= '60' value="">
-  <br>
-  <br>
-  <label for="txtSenha">Senha:</label>
-  <input type= "password" placeholder="Digite sua senha" name="psswd" size= '60'value="">
-  <br>
-  <br>
-
-
-  <button type="submit" name="BtnSingup" class="Button" routerLink='/loginPageTenho/FinalCadastro'><h1 class="ButtonText"> Faça seu cadastro </h1></button>
-
+  <h1>{{title}}</h1>
+    <br>
+      <label for="txtName">Nome:</label>
+      <input type="text" placeholder="Digite o nome do seu usuário" name="Name" size= '60'value="" formControlName="nome">
+    <br>
+    <br>
+      <label for= "txtEmail">E-mail:</label>
+      <input type="email" placeholder="Digite o seu email" name="E-Mail"size= '60' value="" formControlName="email">
+    <br>
+    <br>
+      <label for="txtSenha">Senha:</label>
+      <input type= "password" placeholder="Digite sua senha" name="psswd" size= '60'value="" formControlName="senha">
+    <br>
+    <br>
+      <button type="button" name="BtnSingup" class="Button" routerLink='/loginPageTenho/FinalCadastro' (click)="cadastrarUsuario()"><h1 class="ButtonText"> Faça seu cadastro </h1></button>
 </form>
