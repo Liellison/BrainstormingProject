@@ -11,7 +11,7 @@ import * as firebase from 'firebase';
 
 export class LoginPageTenhoComponent implements OnInit {
   LoginHas = 'Tenho cadastro';
-  public usuario: User = new User();
+  //public usuario: User = new User();
   constructor(private autenticacao: AutenticacaoService) {  }
 
   ngOnInit(): void {
@@ -20,8 +20,8 @@ export class LoginPageTenhoComponent implements OnInit {
   }
 
   doLogin() {
-    this.autenticacao.doLogin(this.usuario);
-    console.log(this.usuario);
+    //this.autenticacao.doLogin(this.usuario);
+    //console.log(this.usuario);
 
     function onSignIn(googleUser) {
       const profile = googleUser.getBasicProfile();

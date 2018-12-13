@@ -79,5 +79,12 @@
         }
       ]
     }
+  ],
+  "Usuario":[
+    {
+      "Email": "email@mail.com",
+      "Nome": "Meu Nome Completo",
+      "Senha": "123"
+    }
   ]
 }
