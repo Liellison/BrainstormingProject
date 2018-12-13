@@ -1,0 +1,12 @@
+<div class="telaNovaLamp">
+  <form [formGroup]="formu" (ngSubmit)="onSubmit()" >
+      <div class="form-group">
+          <label>Informe tua Lamp para a sala</label>
+          <input formControlName="Descricao" class="form-control" >
+      </div>
+  </form>
+  <button (click)="salva()">Salvar</button>
+</div>
+<app-cabecalho></app-cabecalho>
+<app-menu-lateral></app-menu-lateral>
+<app-light-rating></app-light-rating>

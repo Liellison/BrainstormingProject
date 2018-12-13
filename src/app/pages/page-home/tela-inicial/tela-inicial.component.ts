@@ -13,7 +13,7 @@ export class TelaInicialComponent implements OnInit {
   constructor(db: AngularFireDatabase) {
     db.list('/Salas').valueChanges().subscribe(Salas =>{
       this.Salas = Salas;
-      console.log(this.Salas);
+      console.log(this.Salas[0].Descricao);
     });
    }
 

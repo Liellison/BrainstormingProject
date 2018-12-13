@@ -1,0 +1,83 @@
+{
+  "Salas": [
+    {
+      "Id": "1",
+      "Descricao": "Vamos salvar o mundo",
+      "Resumo": "Quero ideias para salvar o mundo",
+      "Lamps": [
+        {
+          "Lamps":"Vamos mandar para Marte todos os Bolsominios.",
+          "Votacao":[
+          	0,
+          	1,
+          	2
+          ]
+        },
+        {
+          "Lamps":"Vamos mandar para Lua todos os esquerdistas.",
+          "Votacao":[
+          	0
+          ]
+        },
+        {
+          "Lamps":"Vamos amor o proximo.",
+          "Votacao":[
+          	0,
+          	1,
+          	2
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "2",
+      "Descricao": "Festa de ano novo na casa do crush",
+      "Resumo": "Quero ideias para montar ums festa supresa na casa do crush",
+      "Lamps": [
+        {
+          "Lamps":"Marca com a irmã dela para ela ajudar.",
+          "Votacao":[
+          	0,
+          	1,
+          	2
+          ]
+        },
+        {
+          "Lamps":"Para que ele num te quer.",
+          "Votacao":[
+          	0
+          ]
+        },
+        {
+          "Lamps":"Este homem é este homem mesmo visso.",
+          "Votacao":[
+          	0,
+          	1,
+          	2
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "3",
+      "Descricao": "Como ser um lider",
+      "Resumo": "Ideias de como ser o melhor lider",
+      "Lamps": [
+        {
+          "Lamps":"Tenha atenção nos outros.",
+          "Votacao":[
+          	0,
+          	1,
+          	2
+          ]
+        },
+        {
+          "Lamps":"Não grite.",
+          "Votacao":[
+          	0
+          ]
+        }
+      ]
+    }
+  ]
+}
