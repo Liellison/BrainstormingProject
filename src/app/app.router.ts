@@ -11,6 +11,7 @@ import { CabecalhoComponent } from './pages/page-home/cabecalho/cabecalho.compon
 import { Bran1Component } from './pages/page-home/tela-inicial/bran1/bran1.component';
 import { PageNewRoomComponent } from './pages/page-new-room/page-new-room.component';
 import { PageNewlampComponent } from './pages/page-newlamp/page-newlamp.component';
+import { PageExemploLampComponent } from './pages/page-newlamp/page-exemplo-lamp/page-exemplo-lamp.component';
 
 export const routes: Routes = [
   {path: '', component: WelcomeComponent},
@@ -22,6 +23,6 @@ export const routes: Routes = [
   {path: 'loginPageTenho/FinalCadastro', component: LoginErradoComponent},
   {path: 'cabecalho', component: CabecalhoComponent},
   {path: 'NewRoom', component: PageNewRoomComponent},
-  {path: 'Newlamp', component: PageNewlampComponent}
-
+  {path: 'Newlamp', component: PageNewlampComponent},
+  {path: 'Newlamp/new', component: PageExemploLampComponent}
 ];
